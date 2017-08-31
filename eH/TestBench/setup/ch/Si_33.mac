@@ -3,7 +3,7 @@
 /gps/pos/type Plane
 /gps/pos/shape Square
 /gps/pos/centre 0. -1.1 10.86 mm
-/gps/pos/halfx 2.75 mm
+/gps/pos/halfx 2.765 mm
 /gps/pos/halfy 0.1 mm
 /gps/ang/type iso
 /gps/ang/rot1 -1 0 0
