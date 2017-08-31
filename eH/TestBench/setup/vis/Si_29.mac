@@ -1,0 +1,21 @@
+
+/gps/particle e-
+/gps/pos/type Plane
+/gps/pos/shape Square
+/gps/pos/centre 0. -1.9 10.86 mm
+/gps/pos/halfx 0.01 mm
+/gps/pos/halfy 0.1 mm
+/gps/ang/type iso
+/gps/ang/rot1  0 1 0
+/gps/ang/rot2  0 0 1
+/gps/ang/mintheta 90 deg 
+/gps/ang/maxtheta 90 deg
+/gps/ang/minphi  94.854 deg
+/gps/ang/maxphi 104.854 deg
+/gps/ene/type Lin
+/gps/ene/min 1. keV
+/gps/ene/max 1.001 keV
+/gps/ene/gradient 1.
+/gps/ene/intercept 1.
+
+/run/beamOn 300

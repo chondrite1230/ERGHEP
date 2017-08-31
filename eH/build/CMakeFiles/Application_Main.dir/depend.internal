@@ -705,10 +705,13 @@ CMakeFiles/Application_Main.dir/src/Geometry.cc.o
  /usr/local/Geant4/include/Geant4/G4Threading.hh
  /usr/local/Geant4/include/Geant4/G4ThreeVector.hh
  /usr/local/Geant4/include/Geant4/G4Transform3D.hh
+ /usr/local/Geant4/include/Geant4/G4Trd.hh
+ /usr/local/Geant4/include/Geant4/G4Trd.icc
  /usr/local/Geant4/include/Geant4/G4Types.hh
  /usr/local/Geant4/include/Geant4/G4UBox.hh
  /usr/local/Geant4/include/Geant4/G4UOrb.hh
  /usr/local/Geant4/include/Geant4/G4USolid.hh
+ /usr/local/Geant4/include/Geant4/G4UTrd.hh
  /usr/local/Geant4/include/Geant4/G4UnionSolid.hh
  /usr/local/Geant4/include/Geant4/G4VPhysicalVolume.hh
  /usr/local/Geant4/include/Geant4/G4VPhysicalVolume.icc

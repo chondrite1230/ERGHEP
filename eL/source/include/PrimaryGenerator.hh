@@ -6,7 +6,9 @@
 
 #include "G4VUserPrimaryGeneratorAction.hh"
 class G4Event;
-class G4ParticleGun;
+//class G4ParticleGun;
+class G4GeneralParticleSource;
+
 
 //------------------------------------------------------------------------------
   class PrimaryGenerator : public G4VUserPrimaryGeneratorAction
@@ -20,8 +22,11 @@ class G4ParticleGun;
     void GeneratePrimaries(G4Event*);
 
   private:
-    G4ParticleGun* fpParticleGun;
-};
+  //G4ParticleGun* fpParticleGun;
+  G4GeneralParticleSource*fpParticleGPS;
+  
+
+  };
 #endif
 
 
