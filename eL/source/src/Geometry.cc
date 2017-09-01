@@ -43,7 +43,7 @@ G4UnionSolid* BoxUni = new G4UnionSolid("BoxUni",Box1,Coli1,0,G4ThreeVector(0*mm
 G4Box* Box2 = new G4Box("Box2", 24.5*mm/2, 65.0*mm/2, 20.0*mm/2);
 //G4Box* Box3 = new G4Box("Box3", 3.0*mm/2, 13.3104*mm/2, 6.003*mm/2);
 
-G4Trd* Box3 = new G4Trd("Box3", 5.0*mm/2, 5.0*mm/2, 0.6304*mm/2, 7.444*mm/2,  6.003*mm/2 );
+G4Trd* Box3 = new G4Trd("Box3", 4.0*mm/2, 4.0*mm/2, 0.6304*mm/2, 7.444*mm/2,  6.003*mm/2 );
  
 G4Box* Slit1 = new G4Box("Slit1",0.63*mm/2, 0.630*mm/2, 0.302*mm/2);
 G4Box* Slit2 = new G4Box("Slit2",0.63*mm/2, 0.991*mm/2, 0.302*mm/2);
