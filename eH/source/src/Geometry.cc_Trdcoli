@@ -40,7 +40,7 @@ G4Box* Box1 = new G4Box("Box1", 36.5*mm/2, 77.0*mm/2, 32.0*mm/2);
 G4Box* Coli1 = new G4Box("Coli1",9.0*mm/2, 56.0*mm/2, 29.48*mm/2);
 G4UnionSolid* BoxUni = new G4UnionSolid("BoxUni",Box1,Coli1,0,G4ThreeVector(0*mm, 0*mm, -30.74*mm));
 
-G4Box* Box2 = new G4Box("Box2", 23.5*mm/2, 64.0*mm/2, 19.0*mm/2);
+G4Box* Box2 = new G4Box("Box2", 22.5*mm/2, 63.0*mm/2, 18.0*mm/2);
 //G4Box* Box3 = new G4Box("Box3", 3.0*mm/2, 15.8645*mm/2, 6.003*mm/2);
 
 G4Trd* Box3 = new G4Trd("Box3", 6.5*mm/2, 6.5*mm/2, 1.7004*mm/2, 9.677*mm/2,  7.003*mm/2 );
@@ -74,7 +74,7 @@ G4Box* Slit26 = new G4Box("Slit26",2.4*mm/2, 31.657*mm/2, 1.002*mm/2);
 G4Box* Slit27 = new G4Box("Slit27",2.4*mm/2, 33.430*mm/2, 1.482*mm/2);
 G4Box* Slit28 = new G4Box("Slit28",4.5*mm/2, 38.000*mm/2, 2.002*mm/2);
 
-G4UnionSolid* Void = new G4UnionSolid("Void",Box2,Box3,0,G4ThreeVector(0*mm, 0*mm, -13.00*mm));
+G4UnionSolid* Void = new G4UnionSolid("Void",Box2,Box3,0,G4ThreeVector(0*mm, 0*mm, -12.50*mm));
 G4UnionSolid* SlitUni0 = new G4UnionSolid("SlitUni0",Slit1,Void,0,G4ThreeVector(0*mm, 0*mm, 16.50*mm));
 G4UnionSolid* SlitUni1 = new G4UnionSolid("SlitUni1",SlitUni0,Slit2,0,G4ThreeVector(0*mm, 0*mm, -1*mm));
 G4UnionSolid* SlitUni2 = new G4UnionSolid("SlitUni2",SlitUni1,Slit3,0,G4ThreeVector(0*mm, 0*mm, -2*mm));
